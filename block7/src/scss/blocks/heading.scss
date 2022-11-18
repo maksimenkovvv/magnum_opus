@@ -1,0 +1,111 @@
+$main-width: 1096px;
+
+.heading {
+  padding-top: 42px;
+  width: $main-width;
+
+  .heading__services {
+    .heading__services__uphead {
+      width: $main-width;
+      display: flex;
+      justify-content: space-between;
+      .heading__services__uphead-header {
+        padding-left: 20px;
+        border-left: 2px solid #41f6d7;
+      }
+      .heading__services__uphead-image {
+        display: flex;
+
+        .heading__services__uphead-image__common {
+          display: flex;
+          line-height: 35px;
+        }
+
+        .heading__services__uphead-image__common:hover {
+          cursor: pointer;
+        }
+
+        .heading__services__uphead-image__repair {
+          padding-right: 32px;
+        }
+
+        .heading__services__uphead-image__text {
+          margin-right: 8px;
+        }
+
+        .heading__services__uphead-image__status {
+        }
+      }
+    }
+
+    .heading__services__subhead {
+      .heading__services__subhead-buttons {
+        width: 1064px;
+        padding-top: 9px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .buttons__link {
+          width: 210px;
+          height: 40px;
+          line-height: 40px;
+          text-align: center;
+          text-decoration: none;
+
+          .buttons__link-6 {
+            text-align: left;
+            margin-right: 108px;
+          }
+
+          .common__link {
+            text-decoration: none;
+            color: #7e7e82;
+          }
+        }
+
+        .buttons__link:hover {
+          width: 206px;
+          height: 36px;
+          line-height: 36px;
+          border: 2px solid #b8ffec;
+          border-radius: 6px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .heading__about {
+    display: flex;
+    padding-top: 20px;
+
+    .heading__about__info {
+      width: 490px;
+
+      .heading__about__info-text {
+        height: 160px;
+      }
+
+      .heading__about__info-furhter {
+        display: flex;
+        padding-top: 14px;
+
+        .heading__about__info-image {
+          margin-right: 16px;
+        }
+      }
+
+      .heading__about__info-furhter:hover {
+        cursor: pointer;
+      }
+
+      .heading__text:last-child {
+        margin-top: 25px;
+      }
+    }
+
+    .heading__about__image {
+      padding-left: 36px;
+    }
+  }
+}
