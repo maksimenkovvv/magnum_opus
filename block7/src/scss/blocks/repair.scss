@@ -1,0 +1,114 @@
+.right__sidebar {
+  .repair {
+    width: 1120px;
+    max-height: 700px;
+    padding: 60px 0px 0px 32px;
+
+    .repair__brands {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 40px;
+      column-gap: 32px;
+      row-gap: 16px;
+
+      .repair__brands__blocks {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 240px;
+        height: 72px;
+        border: 1px solid #eaeaea;
+        border-radius: 6px;
+        box-sizing: border-box;
+
+        .repair__brands__blocks-lenovo {
+          margin-right: 60px;
+        }
+
+        .repair__brands__blocks-samsung {
+          margin-right: 52px;
+        }
+
+        .repair__brands__blocks-apple {
+          margin-right: 124px;
+        }
+
+        .repair__brands__blocks-bosch {
+          margin-right: 40px;
+        }
+
+        .repair__brands__blocks-hp {
+          margin-right: 122px;
+        }
+
+        .repair__brands__blocks-acer {
+          margin-right: 74px;
+        }
+
+        .repair__brands__blocks-viewsonic,
+        .repair__brands__blocks-sony {
+          margin-right: 42px;
+        }
+
+        .repair__brands__blocks-more {
+          margin-right: 16px;
+        }
+      }
+    }
+
+    .repair__brands__blocks:hover {
+      cursor: pointer;
+      border: 1px solid #303030;
+    }
+
+    .repair__more {
+      display: flex;
+      margin-top: 24px;
+      width: 135px;
+
+      .repair__more-image {
+        margin-right: 16px;
+      }
+    }
+
+    .repair__more:hover {
+      cursor: pointer;
+    }
+
+    .repair__technic {
+      padding-top: 66px;
+
+      .repair__technic__types {
+        display: flex;
+        gap: 32px;
+        margin-top: 40px;
+
+        .repair__technic__types__blocks {
+          display: flex;
+          width: 240px;
+          height: 160px;
+          border: 1px solid #eaeaea;
+          border-radius: 6px;
+          box-sizing: border-box;
+
+          .repair__technic__types__blocks-item {
+            margin: 16px 0px 0px 16px;
+          }
+
+          .repair__technic__types__blocks-image {
+            margin: 104px 0px 0px 40px;
+          }
+
+          .repair__technic__types__blocks-image-3 {
+            margin-left: 90px;
+          }
+        }
+
+        .repair__technic__types__blocks:hover {
+          cursor: pointer;
+          border: 1px solid #303030;
+        }
+      }
+    }
+  }
+}
