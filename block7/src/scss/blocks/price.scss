@@ -1,6 +1,6 @@
 .right__sidebar {
   .price {
-    padding: 50px 0px 0px 32px;
+    margin-top: 50px;
 
     .price__header {
       color: #7e7e82;
@@ -87,6 +87,21 @@
         .price__note__more-text:hover {
           cursor: pointer;
         }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .price {
+      .price__header {
+        margin-left: 24px;
+      }
+
+      .price__tables {
+        margin-left: 24px;
+      }
+
+      .price__note {
+        margin-left: 24px;
       }
     }
   }

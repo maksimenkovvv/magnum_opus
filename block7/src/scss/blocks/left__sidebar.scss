@@ -3,3 +3,10 @@
   line-height: 24px;
   font-family: 'TT Lakes Medium';
 }
+
+@media (width: 768px) {
+  .left__sidebar {
+    width: 768px;
+    height: 88px;
+  }
+}
