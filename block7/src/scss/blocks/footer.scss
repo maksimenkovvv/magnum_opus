@@ -4,7 +4,14 @@
     justify-content: space-between;
     max-width: 1000px;
     margin: 80px 32px 21px 32px;
-    color: #7e7e82;
+
+    .footer__text {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      color: #7e7e82;
+      opacity: 0.72;
+    }
 
     .footer__develop {
       width: 218px;
@@ -24,7 +31,32 @@
       margin: 80px 24px 25px 24px;
 
       .footer__info {
-        max-width: 213px;
+        width: 213px;
+      }
+    }
+  }
+
+  @media (max-width: 320px) {
+    .footer {
+      flex-direction: column;
+      gap: 16px;
+      margin: 0;
+      margin-top: 60px;
+      margin-bottom: 19px;
+      width: 100%;
+      text-align: center;
+
+      .footer__develop {
+        width: 100%;
+      }
+
+      .footer__privacy {
+        width: 100%;
+      }
+
+      .footer__info {
+        width: 100%;
+        text-align: center;
       }
     }
   }

@@ -11,4 +11,5 @@
 @import './blocks/price.scss';
 @import './blocks/footer.scss';
 @import './blocks/menu__container.scss';
-@import '../../node_modules/swiper/swiper.scss';
+@import 'swiper/swiper.scss';
+@import 'swiper/modules/pagination/pagination.scss';

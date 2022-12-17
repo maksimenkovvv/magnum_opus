@@ -132,7 +132,9 @@
                   class="menu__media__burger-image"
                 />
               </div>
-              <div class="menu__media__line"></div>
+              <div
+                class="menu__media__line menu__media__line-leftsidebar"
+              ></div>
               <div class="menu__media__logo">
                 <img
                   src="./img/menu_logo.svg"
@@ -153,7 +155,9 @@
                   ><img src="./img/menu_profile.svg" alt="profile"
                 /></div>
               </div>
-              <div class="menu__media__line"></div>
+              <div
+                class="menu__media__line menu__media__line-rightsidebar"
+              ></div>
               <div
                 class="menu__media__icons-services menu__media__icons-common"
               >
@@ -482,9 +486,9 @@
               >Ремонт техники различных брендов</h3
             >
           </div>
-          <div class="repair__brands__container">
-            <div class="repair__brands">
-              <div class="repair__brands__blocks">
+          <div class="repair__brands__container swiper">
+            <div class="repair__brands swiper-wrapper">
+              <div class="repair__brands__blocks swiper-slide">
                 <img
                   class="repair__brands__blocks-image repair__brands__blocks-lenovo"
                   src="./img/lenovo_block.png"
@@ -496,7 +500,7 @@
                   alt="more"
                 />
               </div>
-              <div class="repair__brands__blocks">
+              <div class="repair__brands__blocks swiper-slide">
                 <img
                   class="repair__brands__blocks-image repair__brands__blocks-samsung"
                   src="./img/samsung_block.png"
@@ -508,7 +512,7 @@
                   alt="more"
                 />
               </div>
-              <div class="repair__brands__blocks">
+              <div class="repair__brands__blocks swiper-slide">
                 <img
                   class="repair__brands__blocks-image repair__brands__blocks-apple"
                   src="./img/apple_block.png"
@@ -521,7 +525,7 @@
                   alt="more"
                 />
               </div>
-              <div class="repair__brands__blocks">
+              <div class="repair__brands__blocks swiper-slide">
                 <img
                   class="repair__brands__blocks-image repair__brands__blocks-viewsonic"
                   src="./img/viewsonic_block.png"
@@ -533,7 +537,7 @@
                   alt="more"
                 />
               </div>
-              <div class="repair__brands__blocks">
+              <div class="repair__brands__blocks swiper-slide">
                 <img
                   class="repair__brands__blocks-image repair__brands__blocks-bosch"
                   src="./img/bosch_block.png"
@@ -545,7 +549,7 @@
                   alt="more"
                 />
               </div>
-              <div class="repair__brands__blocks">
+              <div class="repair__brands__blocks swiper-slide">
                 <img
                   class="repair__brands__blocks-image repair__brands__blocks-hp"
                   src="./img/hp_block.png"
@@ -558,7 +562,7 @@
                 />
               </div>
               <div class="repair__brands-hidden off-1" id="more-1">
-                <div class="repair__brands__blocks">
+                <div class="repair__brands__blocks swiper-slide">
                   <img
                     class="repair__brands__blocks-image repair__brands__blocks-acer"
                     src="./img/acer_block.png"
@@ -570,7 +574,7 @@
                     alt="more"
                   />
                 </div>
-                <div class="repair__brands__blocks">
+                <div class="repair__brands__blocks swiper-slide">
                   <img
                     class="repair__brands__blocks-image repair__brands__blocks-sony"
                     src="./img/sony_block.png"
@@ -593,50 +597,51 @@
               <button class="repair__more-btn" id="btn-1">Показать все</button>
             </div>
           </div>
-
           <div class="repair__technic">
             <div class="repair__technic__header">
               <h3 class="right__sidebar-heading"
                 >Ремонт различных видов техники</h3
               >
             </div>
-            <div class="repair__technic__types">
-              <div class="repair__technic__types__blocks">
-                <div class="repair__technic__types__blocks-item"
-                  ><p>Ремонт ноутбуков </p></div
-                >
-                <div class="repair__technic__types__blocks-image"
-                  ><img src="./img/more_block.svg" alt="more"
-                /></div>
-              </div>
-              <div class="repair__technic__types__blocks">
-                <div class="repair__technic__types__blocks-item"
-                  ><p>Ремонт планшетов </p></div
-                >
-                <div class="repair__technic__types__blocks-image"
-                  ><img src="./img/more_block.svg" alt="more"
-                /></div>
-              </div>
-              <div class="repair__technic__types__blocks">
-                <div class="repair__technic__types__blocks-item"
-                  ><p>Ремонт ПК </p></div
-                >
-                <div
-                  class="repair__technic__types__blocks-image repair__technic__types__blocks-image-3"
-                  ><img src="./img/more_block.svg" alt="more"
-                /></div>
-              </div>
-              <div
-                class="repair__technic__types__blocks-container off-2"
-                id="more-2"
-              >
-                <div class="repair__technic__types__blocks">
+            <div class="repair__technic__types-container swiper">
+              <div class="repair__technic__types swiper-wrapper">
+                <div class="repair__technic__types__blocks swiper-slide">
                   <div class="repair__technic__types__blocks-item"
-                    ><p>Ремонт мониторов </p></div
+                    ><p>Ремонт ноутбуков </p></div
                   >
                   <div class="repair__technic__types__blocks-image"
                     ><img src="./img/more_block.svg" alt="more"
                   /></div>
+                </div>
+                <div class="repair__technic__types__blocks swiper-slide">
+                  <div class="repair__technic__types__blocks-item"
+                    ><p>Ремонт планшетов </p></div
+                  >
+                  <div class="repair__technic__types__blocks-image"
+                    ><img src="./img/more_block.svg" alt="more"
+                  /></div>
+                </div>
+                <div class="repair__technic__types__blocks swiper-slide">
+                  <div class="repair__technic__types__blocks-item"
+                    ><p>Ремонт ПК </p></div
+                  >
+                  <div
+                    class="repair__technic__types__blocks-image repair__technic__types__blocks-image-3"
+                    ><img src="./img/more_block.svg" alt="more"
+                  /></div>
+                </div>
+                <div
+                  class="repair__technic__types__blocks-container off-2 swiper-slide"
+                  id="more-2"
+                >
+                  <div class="repair__technic__types__blocks">
+                    <div class="repair__technic__types__blocks-item"
+                      ><p>Ремонт мониторов </p></div
+                    >
+                    <div class="repair__technic__types__blocks-image"
+                      ><img src="./img/more_block.svg" alt="more"
+                    /></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -653,6 +658,146 @@
         <div class="price">
           <div class="price__header">
             <h3 class="right__sidebar-heading">Цены на услуги</h3>
+          </div>
+          <div class="price__media swiper">
+            <div class="price__media__container swiper-wrapper">
+              <div class="price__media__block-container swiper-slide">
+                <div class="price__media-services price__media-block">
+                  <p class="price__media__text-uphead">Ремонтные услуги</p>
+                  <p class="price__media__text-subhead">Диагностика</p>
+                </div>
+                <div class="price__media-price price__media-block">
+                  <p class="price__media__text-uphead">Цена</p>
+                  <p class="price__media__text-subhead">1 000 ₽</p>
+                </div>
+                <div class="price__media-period price__media-block">
+                  <div class="price__media-period__wrapper">
+                    <p class="price__media__text-uphead">Срок</p>
+                    <p class="price__media__text-subhead">30 мин</p>
+                  </div>
+                  <div class="price__button-wrapper">
+                    <div class="price__button">
+                      <a class="price__button-text" href="#">заказать</a>
+                      <img
+                        class="price__button-image"
+                        src="./img/order_price.svg"
+                        alt="order"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="price__media__block-container swiper-slide">
+                <div class="price__media-services price__media-block">
+                  <p class="price__media__text-uphead">Ремонтные услуги</p>
+                  <p class="price__media__text-subhead">Замена дисплея</p>
+                </div>
+                <div class="price__media-price price__media-block">
+                  <p class="price__media__text-uphead">Цена</p>
+                  <p class="price__media__text-subhead">1 000 ₽</p>
+                </div>
+                <div class="price__media-period price__media-block">
+                  <div class="price__media-period__wrapper">
+                    <p class="price__media__text-uphead">Срок</p>
+                    <p class="price__media__text-subhead">30-120 мин</p>
+                  </div>
+                  <div class="price__button-wrapper">
+                    <div class="price__button">
+                      <a class="price__button-text" href="#">заказать</a>
+                      <img
+                        class="price__button-image"
+                        src="./img/order_price.svg"
+                        alt="order"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="price__media__block-container swiper-slide">
+                <div class="price__media-services price__media-block">
+                  <p class="price__media__text-uphead">Ремонтные услуги</p>
+                  <p class="price__media-text"
+                    >Замена полифонического динамика</p
+                  >
+                </div>
+                <div class="price__media-price price__media-block">
+                  <p class="price__media__text-uphead">Цена</p>
+                  <p class="price__media__text-subhead">1 000 ₽</p>
+                </div>
+                <div class="price__media-period price__media-block">
+                  <div class="price__media-period__wrapper">
+                    <p class="price__media__text-uphead">Срок</p>
+                    <p class="price__media__text-subhead">30-120 мин</p>
+                  </div>
+                  <div class="price__button-wrapper">
+                    <div class="price__button">
+                      <a class="price__button-text" href="#">заказать</a>
+                      <img
+                        class="price__button-image"
+                        src="./img/order_price.svg"
+                        alt="order"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="price__media__block-container swiper-slide">
+                <div class="price__media-services price__media-block">
+                  <p class="price__media__text-uphead">Ремонтные услуги</p>
+                  <p class="price__media__text-subhead"
+                    >Тестирование с выдачей технического заключения</p
+                  >
+                </div>
+                <div class="price__media-price price__media-block">
+                  <p class="price__media__text-uphead">Цена</p>
+                  <p class="price__media__text-subhead">1 000 ₽</p>
+                </div>
+                <div class="price__media-period price__media-block">
+                  <div class="price__media-period__wrapper">
+                    <p class="price__media__text-uphead">Срок</p>
+                    <p class="price__media__text-subhead">30-120 мин</p>
+                  </div>
+                  <div class="price__button-wrapper">
+                    <div class="price__button">
+                      <a class="price__button-text" href="#">заказать</a>
+                      <img
+                        class="price__button-image"
+                        src="./img/order_price.svg"
+                        alt="order"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="price__media__block-container swiper-slide">
+                <div class="price__media-services price__media-block">
+                  <p class="price__media__text-uphead">Ремонтные услуги</p>
+                  <p class="price__media__text-subhead"
+                    >Замена программного обеспечения</p
+                  >
+                </div>
+                <div class="price__media-price price__media-block">
+                  <p class="price__media__text-uphead">Цена</p>
+                  <p class="price__media__text-subhead">1 000 ₽</p>
+                </div>
+                <div class="price__media-period price__media-block">
+                  <div class="price__media-period__wrapper">
+                    <p class="price__media__text-uphead">Срок</p>
+                    <p class="price__media__text-subhead">30-120 мин</p>
+                  </div>
+                  <div class="price__button-wrapper">
+                    <div class="price__button">
+                      <a class="price__button-text" href="#">заказать</a>
+                      <img
+                        class="price__button-image"
+                        src="./img/order_price.svg"
+                        alt="order"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="price__tables">
             <div class="price__table-1 table"><p>Ремонтные услуги</p></div>
@@ -727,24 +872,28 @@
               постоянное обслуживание, оставьте заявку.</p
             >
             <div class="price__note__more">
-              <h3 class="price__note__more-text"
-                >Получить коммерческое предложение</h3
-              >
-              <img
-                src="./img/price_note.svg"
-                alt="more"
-                class="price__note__more-image"
-              />
+              <p class="price__note__more-text-uphead">Получить коммерческое</p>
+              <div class="price__note__more-wrapper">
+                <p class="price__note__more-text-subhead"> предложение</p>
+                <img
+                  src="./img/price_note.svg"
+                  alt="more"
+                  class="price__note__more-image"
+                />
+              </div>
             </div>
           </div>
         </div>
         <div class="footer">
           <div class="footer__develop"
-            ><p>© 2019 CPS Разработано командой Apesong</p>
+            ><p class="footer__text">© 2019 CPS </p>
+            <p class="footer__text">Разработано командой Apesong</p>
           </div>
-          <div class="footer__privacy"><p>Политика конфиденциальности</p></div>
+          <div class="footer__privacy"
+            ><p class="footer__text">Политика конфиденциальности</p></div
+          >
           <div class="footer__info"
-            ><p
+            ><p class="footer__text"
               >Информация, размещенная на данной странице, не является публичной
               офертой</p
             ></div

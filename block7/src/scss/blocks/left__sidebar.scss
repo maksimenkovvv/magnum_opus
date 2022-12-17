@@ -6,7 +6,14 @@
 
 @media (width: 768px) {
   .left__sidebar {
-    width: 768px;
+    width: 100%;
+    height: 88px;
+  }
+}
+
+@media (width: 320px) {
+  .left__sidebar {
+    width: 100%;
     height: 88px;
   }
 }

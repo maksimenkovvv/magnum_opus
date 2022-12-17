@@ -5,8 +5,9 @@ import readMore from './readMore';
 import readMore1 from './readMore1';
 import readMore2 from './readMore2';
 import menu_popup from './menu_popup';
-// import Swiper, { Navigation, Pagination } from 'swiper';
-// const swiper = new Swiper('.swiper', {
-//     modules: [Navigation, Pagination],
-//   });
+import '../../node_modules/swiper/swiper.scss';
+import '../../node_modules/swiper/modules/navigation/navigation.scss';
+import '../../node_modules/swiper/modules/pagination/pagination.scss';
+import './slider.js';
+
 console.log('Works!');
