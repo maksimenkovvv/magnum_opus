@@ -97,7 +97,6 @@ $main-width: 1096px;
         width: 490px;
 
         .heading__about__info-text {
-          height: 160px;
         }
 
         .heading__about__info-furhter {
@@ -111,6 +110,8 @@ $main-width: 1096px;
           .heading__further {
             font-size: 16px;
             font-family: 'TT Lakes Medium';
+            border-style: none;
+            background-color: azure;
           }
         }
 
@@ -123,8 +124,98 @@ $main-width: 1096px;
         }
       }
 
-      .heading__about__image {
-        padding-left: 36px;
+      .heading__about__image-container {
+        margin-left: 36px;
+        .heading__about__image {
+          width: 530px;
+          border-radius: 6px;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .heading {
+      width: 100%;
+
+      .heading__services {
+        .heading__services__uphead {
+          width: 100%;
+
+          .heading__services__uphead-image {
+            display: none;
+          }
+        }
+        .heading__services__subhead {
+          overflow-x: scroll;
+          height: 60px;
+          .heading__services__subhead-buttons {
+            width: 1280px;
+            .buttons__link:last-child {
+              text-align: center;
+            }
+          }
+        }
+      }
+
+      .heading__about {
+        .heading__about__info {
+          width: 312px;
+
+          .heading__about__info-text {
+            .heading__text {
+              #more.off {
+                display: none;
+              }
+            }
+          }
+          .heading__about__info-furhter {
+            .heading__further {
+            }
+          }
+        }
+        .heading__about__image-container {
+          .heading__about__image {
+            width: 360px;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 320px) {
+    .heading {
+      width: 100%;
+
+      .heading__services {
+        .heading__services__uphead {
+          .heading__services__uphead-header {
+            font-size: 28px;
+          }
+        }
+        .heading__services__subhead {
+          margin-left: 16px;
+        }
+      }
+
+      .heading__about {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 24px;
+
+        .heading__about__info {
+          margin-left: 16px;
+          width: 288px;
+        }
+
+        .heading__about__image-container {
+          margin-top: 16px;
+          margin-left: 0px;
+
+          .heading__about__image {
+            width: 320px;
+            border-radius: 0px;
+          }
+        }
       }
     }
   }

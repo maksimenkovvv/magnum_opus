@@ -15,4 +15,16 @@
     font-size: 14px;
     color: #1b1c21;
   }
+
+  @media (max-width: 768px) {
+    .right__sidebar {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .right__sidebar {
+      width: 100%;
+    }
+  }
 }
