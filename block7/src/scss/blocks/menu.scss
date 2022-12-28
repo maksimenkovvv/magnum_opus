@@ -1,9 +1,12 @@
 .left__sidebar {
+  width: 308px;
+
   .menu__container {
     display: none;
   }
 
   .menu {
+    position: fixed;
     width: 308px;
 
     .menu__heading {
