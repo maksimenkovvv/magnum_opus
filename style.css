@@ -375,6 +375,9 @@ body.no-scroll {
 .left__sidebar .menu__popup-call.active {
   transform: translateX(0); }
 
+body.no-scroll {
+  overflow: hidden; }
+
 .left__sidebar .menu__popup-feedback {
   position: fixed;
   width: 1440px;
@@ -460,6 +463,9 @@ body.no-scroll {
 
 .left__sidebar .menu__popup-feedback.active {
   transform: translateX(0); }
+
+body.no-scroll {
+  overflow: hidden; }
 
 .right__sidebar .heading {
   padding-top: 42px;
