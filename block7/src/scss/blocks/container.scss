@@ -5,6 +5,10 @@
   display: flex;
   background-color: azure;
   font-family: 'TT Lakes', sans-serif;
+
+  .button {
+    border: none;
+  }
 }
 
 @media (max-width: 768px) {

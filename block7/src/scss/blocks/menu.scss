@@ -23,7 +23,6 @@
       display: flex;
       flex-direction: column;
       padding-top: 37px;
-      gap: 28px;
 
       .menu__main__container {
         .menu__main__container-pages {
@@ -41,6 +40,13 @@
       }
     }
 
+    .menu__main ul {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      list-style: none;
+    }
+
     .menu__contacts {
       margin: 291px 0px 0px 19px;
       width: 196px;
@@ -52,6 +58,11 @@
 
       .menu__contacts__mail {
         margin-top: 17px;
+
+        .menu__contacts__mail-text {
+          text-decoration: none;
+          color: #1b1c21;
+        }
       }
 
       .menu__contacts__phone {
@@ -61,6 +72,8 @@
           font-size: 24px;
           font-family: 'TT Lakes Bold';
           letter-spacing: -0.6px;
+          text-decoration: none;
+          color: #1b1c21;
         }
       }
     }
@@ -142,6 +155,7 @@
         background-color: azure;
         width: 100%;
         height: 100%;
+        z-index: 2;
 
         .menu-popup {
           width: 320px;
@@ -178,7 +192,6 @@
             display: flex;
             flex-direction: column;
             margin-top: 37px;
-            gap: 28px;
 
             .menu-popup__main__container {
               .menu-popup__main__container-pages {
@@ -194,6 +207,12 @@
                 color: #7e7e82;
               }
             }
+          }
+
+          .menu-popup__main ul {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
           }
 
           .menu-popup__contacts {
@@ -299,6 +318,11 @@
           .menu-popup__main {
             margin-left: 0px;
             margin-top: 23px;
+          }
+
+          .menu-popup__main ul {
+            display: flex;
+            flex-direction: column;
             gap: 24px;
           }
 
@@ -315,4 +339,7 @@
       }
     }
   }
+}
+body.no-scroll {
+  overflow: hidden;
 }
